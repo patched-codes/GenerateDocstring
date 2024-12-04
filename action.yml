@@ -13,6 +13,9 @@ inputs:
   openai_api_key:
     description: 'OpenAI API key for the LLM'
     required: false
+  patched_api_key:
+    description: 'Patched API key for using Patched services'
+    required: false
   base_path:
     description: 'Base path to start generating docstrings from'
     required: false
